@@ -8,6 +8,7 @@ public class Account {
     public void deposit (int amount){
      int newBalance = amount + balance;
      setAmount(newBalance);
+     // balance += amount
     }
 
     public String getName (){
